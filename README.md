@@ -31,6 +31,5 @@ Setting up config on MacOS Catalina. Influenced by Burke Libbey, Luc Perkins.
 5. Run home-manager switch
 
     ```console
-    home-manager switch && source ~/.zshrc      
+    $ home-manager switch && source ~/.zshrc
     ```
-    
