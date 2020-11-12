@@ -168,7 +168,6 @@ in {
     wasmer
     wget
     watchexec # Fileystem watcher/executor useful for speedy development
-    wrangler # CloudFlare Workers CLI tool
     xsv # CSV file parsing utility
     yarn # Node.js package manager
     youtube-dl # Download videos
