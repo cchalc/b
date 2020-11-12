@@ -22,3 +22,15 @@ Setting up config on MacOS Catalina. Influenced by Burke Libbey, Luc Perkins.
     $ nix-shell '<home-manager>' -A install
     ```
 
+4. Clone [repo](https://github.com/cchalc/b)
+
+    ```console
+    $ git clone https://github.com/cchalc/b.git nixpkgs
+    ```
+
+5. Run home-manager switch
+
+    ```console
+    home-manager switch && source ~/.zshrc      
+    ```
+    

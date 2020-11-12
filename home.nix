@@ -126,7 +126,6 @@ in {
     heroku
     htop # Resource monitoring
     httpie # Like curl but more user friendly
-    hugoLocal # Best static site generator ever
     humioctl # Humio logging CLI tool
     jq # JSON parsing for the CLI
     jsonnet # Easy config language
