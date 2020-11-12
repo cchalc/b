@@ -141,7 +141,6 @@ in {
     lua5 # My second-favorite language from Brazil
     mdcat # Markdown converter/reader for the CLI
     minikube # Local Kubernetes
-    ngrok # Expose local HTTP stuff publicly
     niv # Nix dependency management
     nix-serve
     nixos-generators
@@ -174,7 +173,6 @@ in {
     tree # Should be included in macOS but it's not
     vagrant # Virtualization made easy
     vault # Secret management
-    vgo2nix # Package Go modules projects
     vscode # My fav text editor if I'm being honest
     wasmer
     wget
