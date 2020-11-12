@@ -47,13 +47,6 @@ let
     setuptools
   ];
 
-  rubyPackages = with pkgs.rubyPackages_2_7; [
-    jekyll
-    jekyll-watch
-    pry
-    rails
-  ];
-
   gitTools = with pkgs.gitAndTools; [
     delta
     diff-so-fancy
@@ -104,7 +97,6 @@ in {
     circleci-cli # Run CirleCI locally
     conftest
     consul # Service discovery et al
-    #crystal # Like Ruby but faster and with types
     cue # Experimental configuration language
     curl # An old classic
     dhall # Exotic, Nix-like configuration language
@@ -158,7 +150,6 @@ in {
     python3 # Have you upgraded yet???
     rebar3 # Erlang build
     ripgrep # grep replacement written in Rust
-    ruby_2_7 # An old classic
     rustup # Rust dev environment management
     sd # Fancy sed replacement
     shards # Package management tool for the Crystal language
@@ -182,5 +173,5 @@ in {
     yarn # Node.js package manager
     youtube-dl # Download videos
     zola # Static site generator written in Rust
-  ] ++ gitTools ++ pythonPackages ++ rubyPackages ++ scripts;
+  ] ++ gitTools ++ pythonPackages ++ scripts;
 }
