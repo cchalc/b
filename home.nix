@@ -84,7 +84,6 @@ in {
     ansible # Deployment done right
     antora # AsciiDoc static site generator
     autoconf # Broadly used tool, no clue what it does
-    awscli # Amazon Web Services CLI
     bash # /bin/bash
     bat # cat replacement written in Rust
     bazelisk # Polyglot build tool from Google
