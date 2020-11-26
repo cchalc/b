@@ -55,7 +55,7 @@ in {
         whitespace = "trailing-space,space-before-tab";
       };
 
-      commit.gpgsign = "true";
+      commit.gpgsign = "false";
       gpg.program = "gpg2";
 
       protocol.keybase.allow = "always";
