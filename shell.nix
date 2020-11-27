@@ -96,7 +96,7 @@ in {
       source <(doctl completion zsh)
       source <(minikube completion zsh)
       source <(gh completion --shell zsh)
-      rustup completions zsh > ~/.zfunc/_rustup
+      # rustup completions zsh > ~/.zfunc/_rustup
       source <(cue completion zsh)
       source <(npm completion zsh)
       source <(humioctl completion zsh)
@@ -106,15 +106,20 @@ in {
       eval "$(direnv hook zsh)"
 
       # Start up Docker daemon if not running
-      if [ $(docker-machine status default) != "Running" ]; then
-        docker-machine start default
-      fi
+      # if [ $(docker-machine status default) != "Running" ]; then
+      #   docker-machine start default
+      # fi
 
       # Docker env
-      eval "$(docker-machine env default)"
+      # eval "$(docker-machine env default)"
 
       # Load asdf
-      . $HOME/.asdf/asdf.sh
+      if [[ -f $HOME/.asdf/asdf.sh ]]; then 
+          . $HOME/.asdf/asdf.sh
+      fi
+      if [ -e ~/.asdf/asdf.sh ]; then
+        . ~/.asdf/asdf.sh
+      fi
 
       # direnv hook
       eval "$(direnv hook zsh)"
