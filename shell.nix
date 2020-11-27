@@ -92,7 +92,7 @@ in {
       # Autocomplete for various utilities
       source <(helm completion zsh)
       source <(kubectl completion zsh)
-      source <(linkerd completion zsh)
+      # source <(linkerd completion zsh)
       source <(doctl completion zsh)
       source <(minikube completion zsh)
       source <(gh completion --shell zsh)
