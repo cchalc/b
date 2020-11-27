@@ -15,6 +15,12 @@ Setting up config on MacOS Catalina. Influenced by Burke Libbey, Luc Perkins.
     $ nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
     $ nix-channel --update
     ```
+    
+    Alternatively
+    ```console
+    $ nix-channel --add https://github.com/nix-community/home-manager/archive/release-20.09.tar.gz home-manager
+    $ nix-channel --update
+    ```
 
 3. Install Home Manager and create the first Home Manager generation:
 
