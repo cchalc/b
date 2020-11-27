@@ -151,7 +151,6 @@ in {
     ripgrep # grep replacement written in Rust
     rustup # Rust dev environment management
     sd # Fancy sed replacement
-    shards # Package management tool for the Crystal language
     skaffold # Local Kubernetes dev tool
     skim # High-powered fuzzy finder written in Rust
     spotify-tui # Spotify interface for the CLI
