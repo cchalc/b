@@ -6,9 +6,12 @@ Setting up config on MacOS Catalina. Influenced by Burke Libbey, Luc Perkins.
 1. [Install Nix](https://nixos.org/manual/nix/stable/#sect-macos-installation)
 
     ```console
-    sh <(curl -L https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume
+    $ sh <(curl -L https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume
     ```
-
+    ```console
+    $ . /Users/christopher.chalcraft/.nix-profile/etc/profile.d/nix.sh
+    ```
+    
 2. Add the [Home Manager](https://github.com/nix-community/home-manager/blob/master/README.md) channel
 
     ```console
