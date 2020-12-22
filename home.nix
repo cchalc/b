@@ -1,6 +1,7 @@
 { config, lib, ... }:
 
 let
+  config = import ./config.nix;
   nigpkgsRev = "nixpkgs-unstable";
   pkgs = import (fetchTarball "https://github.com/nixos/nixpkgs/archive/${nigpkgsRev}.tar.gz") {};
 
@@ -96,6 +97,7 @@ in {
     circleci-cli # Run CirleCI locally
     conftest
     consul # Service discovery et al
+    coursier # A Scala library to fetch dependencies
     cue # Experimental configuration language
     curl # An old classic
     dhall # Exotic, Nix-like configuration language
@@ -118,6 +120,8 @@ in {
     htop # Resource monitoring
     httpie # Like curl but more user friendly
     humioctl # Humio logging CLI tool
+    jdk13 # java
+    jetbrains.idea-ultimate # jetbrains
     jq # JSON parsing for the CLI
     jsonnet # Easy config language
     just # Intriguing new make replacement
@@ -130,6 +134,7 @@ in {
     kustomize
     lorri # Easy Nix shell
     lua5 # My second-favorite language from Brazil
+    maven # java stuff
     mdcat # Markdown converter/reader for the CLI
     minikube # Local Kubernetes
     niv # Nix dependency management
@@ -156,7 +161,7 @@ in {
     spotify-tui # Spotify interface for the CLI
     starship # Fancy shell that works with zsh
     tealdeer # tldr for various shell tools
-    terraform # Declarative infrastructure management
+#    terraform # Declarative infrastructure management
     tilt # Fast-paced Kubernetes development
     tokei # Handy tool to see lines of code by language
     tree # Should be included in macOS but it's not
