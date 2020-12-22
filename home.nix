@@ -120,7 +120,7 @@ in {
     htop # Resource monitoring
     httpie # Like curl but more user friendly
     humioctl # Humio logging CLI tool
-    jdk13 # java
+#    jdk13 # java
     jetbrains.idea-ultimate # jetbrains
     jq # JSON parsing for the CLI
     jsonnet # Easy config language
