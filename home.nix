@@ -156,7 +156,7 @@ in {
     spotify-tui # Spotify interface for the CLI
     starship # Fancy shell that works with zsh
     tealdeer # tldr for various shell tools
-    terraform # Declarative infrastructure management
+    #terraform # Declarative infrastructure management
     tilt # Fast-paced Kubernetes development
     tokei # Handy tool to see lines of code by language
     tree # Should be included in macOS but it's not
